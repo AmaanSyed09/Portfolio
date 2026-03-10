@@ -28,7 +28,7 @@
   margin-bottom: 90px;
 }
 
-.career-section h2>span {
+.career-section h2 > span {
   font-family: "Geist", sans-serif;
   font-weight: 300;
 }
@@ -91,10 +91,12 @@
   transform: translateX(-50%);
   width: 3px;
   height: 100%;
-  background-image: linear-gradient(to top,
-      #14b8a6 20%,
-      var(--accentColor) 50%,
-      transparent 95%);
+  background-image: linear-gradient(
+    to top,
+    #14b8a6 20%,
+    var(--accentColor) 50%,
+    transparent 95%
+  );
   max-height: 0%;
 }
 
@@ -107,13 +109,14 @@
   width: 10px;
   height: 10px;
   border-radius: 50px;
-  box-shadow: 0px 0px 5px 2px #67e8f9, 0px 0px 15px 8px #5eead4,
+  box-shadow:
+    0px 0px 5px 2px #67e8f9,
+    0px 0px 15px 8px #5eead4,
     0px 0px 110px 20px #a5f3fc;
   animation: timeline 0.8s linear infinite forwards;
 }
 
 @keyframes timeline {
-
   10%,
   20%,
   50%,
@@ -128,7 +131,9 @@
   100%,
   64%,
   80% {
-    box-shadow: 0px 0px 5px 2px #67e8f9, 0px 0px 15px 5px #5eead4,
+    box-shadow:
+      0px 0px 5px 2px #67e8f9,
+      0px 0px 15px 5px #5eead4,
       0px 0px 110px 20px #a5f3fc;
   }
 }
@@ -139,7 +144,9 @@
   }
 
   100% {
-    box-shadow: 0px 0px 5px 2px #67e8f9, 0px 0px 15px 5px #5eead4,
+    box-shadow:
+      0px 0px 5px 2px #67e8f9,
+      0px 0px 15px 5px #5eead4,
       0px 0px 110px 20px #a5f3fc;
   }
 }

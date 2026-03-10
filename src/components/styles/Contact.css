@@ -46,7 +46,7 @@ a.contact-social {
   margin: 0;
 }
 
-.contact-box h2>span {
+.contact-box h2 > span {
   color: var(--accentColor);
 }
 
